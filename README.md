@@ -25,7 +25,8 @@ ButtonIndicatorView *buttonIndicatorView = [[ButtonIndicatorView alloc] initWith
 And Implement your like and unlike action block according to your requirement.
 
 ####Customize your ButtonIndicatorView:
-Inherit from ButtonIndicatorView, and implement the subclass method to customize your button style, see LikeButtonIndicatorView as example:
+Inherit from ButtonIndicatorView, and implement the subclass method to customize your button style:
+
 ```
 - (void)updateButtonStyleLiked:(BOOL)isLiked
 {
@@ -36,6 +37,7 @@ Inherit from ButtonIndicatorView, and implement the subclass method to customize
   }
 }
 ```
+See LikeButtonIndicatorView as example:
 
 License
 ------
