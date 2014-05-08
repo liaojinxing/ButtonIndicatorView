@@ -16,6 +16,7 @@
 		C7B03F8B191B9B1200EBE3BE /* libButtonIndicatorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F73191B9B1200EBE3BE /* libButtonIndicatorView.a */; };
 		C7B03F91191B9B1200EBE3BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B03F8F191B9B1200EBE3BE /* InfoPlist.strings */; };
 		C7B03F93191B9B1200EBE3BE /* ButtonIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B03F92191B9B1200EBE3BE /* ButtonIndicatorViewTests.m */; };
+		C7B03F9E191B9B5700EBE3BE /* LikeButtonIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B03F9D191B9B5700EBE3BE /* LikeButtonIndicatorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		C7B03F8E191B9B1200EBE3BE /* ButtonIndicatorViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonIndicatorViewTests-Info.plist"; sourceTree = "<group>"; };
 		C7B03F90191B9B1200EBE3BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C7B03F92191B9B1200EBE3BE /* ButtonIndicatorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonIndicatorViewTests.m; sourceTree = "<group>"; };
+		C7B03F9C191B9B5700EBE3BE /* LikeButtonIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikeButtonIndicatorView.h; sourceTree = "<group>"; };
+		C7B03F9D191B9B5700EBE3BE /* LikeButtonIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikeButtonIndicatorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,8 @@
 			children = (
 				C7B03F7B191B9B1200EBE3BE /* ButtonIndicatorView.h */,
 				C7B03F7D191B9B1200EBE3BE /* ButtonIndicatorView.m */,
+				C7B03F9C191B9B5700EBE3BE /* LikeButtonIndicatorView.h */,
+				C7B03F9D191B9B5700EBE3BE /* LikeButtonIndicatorView.m */,
 				C7B03F79191B9B1200EBE3BE /* Supporting Files */,
 			);
 			path = ButtonIndicatorView;
@@ -225,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7B03F7E191B9B1200EBE3BE /* ButtonIndicatorView.m in Sources */,
+				C7B03F9E191B9B5700EBE3BE /* LikeButtonIndicatorView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
