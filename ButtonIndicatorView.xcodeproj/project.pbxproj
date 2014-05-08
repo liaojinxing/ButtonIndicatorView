@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C7B03F77191B9B1200EBE3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F76191B9B1200EBE3BE /* Foundation.framework */; };
+		C7B03F7C191B9B1200EBE3BE /* ButtonIndicatorView.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = C7B03F7B191B9B1200EBE3BE /* ButtonIndicatorView.h */; };
+		C7B03F7E191B9B1200EBE3BE /* ButtonIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B03F7D191B9B1200EBE3BE /* ButtonIndicatorView.m */; };
+		C7B03F85191B9B1200EBE3BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F84191B9B1200EBE3BE /* XCTest.framework */; };
+		C7B03F86191B9B1200EBE3BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F76191B9B1200EBE3BE /* Foundation.framework */; };
+		C7B03F88191B9B1200EBE3BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F87191B9B1200EBE3BE /* UIKit.framework */; };
+		C7B03F8B191B9B1200EBE3BE /* libButtonIndicatorView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B03F73191B9B1200EBE3BE /* libButtonIndicatorView.a */; };
+		C7B03F91191B9B1200EBE3BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C7B03F8F191B9B1200EBE3BE /* InfoPlist.strings */; };
+		C7B03F93191B9B1200EBE3BE /* ButtonIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C7B03F92191B9B1200EBE3BE /* ButtonIndicatorViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C7B03F89191B9B1200EBE3BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C7B03F6B191B9B1200EBE3BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C7B03F72191B9B1200EBE3BE;
+			remoteInfo = ButtonIndicatorView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C7B03F71191B9B1200EBE3BE /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				C7B03F7C191B9B1200EBE3BE /* ButtonIndicatorView.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C7B03F73191B9B1200EBE3BE /* libButtonIndicatorView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libButtonIndicatorView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B03F76191B9B1200EBE3BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C7B03F7A191B9B1200EBE3BE /* ButtonIndicatorView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ButtonIndicatorView-Prefix.pch"; sourceTree = "<group>"; };
+		C7B03F7B191B9B1200EBE3BE /* ButtonIndicatorView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ButtonIndicatorView.h; sourceTree = "<group>"; };
+		C7B03F7D191B9B1200EBE3BE /* ButtonIndicatorView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonIndicatorView.m; sourceTree = "<group>"; };
+		C7B03F83191B9B1200EBE3BE /* ButtonIndicatorViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonIndicatorViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7B03F84191B9B1200EBE3BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C7B03F87191B9B1200EBE3BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C7B03F8E191B9B1200EBE3BE /* ButtonIndicatorViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ButtonIndicatorViewTests-Info.plist"; sourceTree = "<group>"; };
+		C7B03F90191B9B1200EBE3BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C7B03F92191B9B1200EBE3BE /* ButtonIndicatorViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonIndicatorViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C7B03F70191B9B1200EBE3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B03F77191B9B1200EBE3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B03F80191B9B1200EBE3BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B03F85191B9B1200EBE3BE /* XCTest.framework in Frameworks */,
+				C7B03F88191B9B1200EBE3BE /* UIKit.framework in Frameworks */,
+				C7B03F8B191B9B1200EBE3BE /* libButtonIndicatorView.a in Frameworks */,
+				C7B03F86191B9B1200EBE3BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B03F6A191B9B1200EBE3BE = {
+			isa = PBXGroup;
+			children = (
+				C7B03F78191B9B1200EBE3BE /* ButtonIndicatorView */,
+				C7B03F8C191B9B1200EBE3BE /* ButtonIndicatorViewTests */,
+				C7B03F75191B9B1200EBE3BE /* Frameworks */,
+				C7B03F74191B9B1200EBE3BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C7B03F74191B9B1200EBE3BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F73191B9B1200EBE3BE /* libButtonIndicatorView.a */,
+				C7B03F83191B9B1200EBE3BE /* ButtonIndicatorViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C7B03F75191B9B1200EBE3BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F76191B9B1200EBE3BE /* Foundation.framework */,
+				C7B03F84191B9B1200EBE3BE /* XCTest.framework */,
+				C7B03F87191B9B1200EBE3BE /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7B03F78191B9B1200EBE3BE /* ButtonIndicatorView */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F7B191B9B1200EBE3BE /* ButtonIndicatorView.h */,
+				C7B03F7D191B9B1200EBE3BE /* ButtonIndicatorView.m */,
+				C7B03F79191B9B1200EBE3BE /* Supporting Files */,
+			);
+			path = ButtonIndicatorView;
+			sourceTree = "<group>";
+		};
+		C7B03F79191B9B1200EBE3BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F7A191B9B1200EBE3BE /* ButtonIndicatorView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C7B03F8C191B9B1200EBE3BE /* ButtonIndicatorViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F92191B9B1200EBE3BE /* ButtonIndicatorViewTests.m */,
+				C7B03F8D191B9B1200EBE3BE /* Supporting Files */,
+			);
+			path = ButtonIndicatorViewTests;
+			sourceTree = "<group>";
+		};
+		C7B03F8D191B9B1200EBE3BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7B03F8E191B9B1200EBE3BE /* ButtonIndicatorViewTests-Info.plist */,
+				C7B03F8F191B9B1200EBE3BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C7B03F72191B9B1200EBE3BE /* ButtonIndicatorView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B03F96191B9B1200EBE3BE /* Build configuration list for PBXNativeTarget "ButtonIndicatorView" */;
+			buildPhases = (
+				C7B03F6F191B9B1200EBE3BE /* Sources */,
+				C7B03F70191B9B1200EBE3BE /* Frameworks */,
+				C7B03F71191B9B1200EBE3BE /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ButtonIndicatorView;
+			productName = ButtonIndicatorView;
+			productReference = C7B03F73191B9B1200EBE3BE /* libButtonIndicatorView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C7B03F82191B9B1200EBE3BE /* ButtonIndicatorViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7B03F99191B9B1200EBE3BE /* Build configuration list for PBXNativeTarget "ButtonIndicatorViewTests" */;
+			buildPhases = (
+				C7B03F7F191B9B1200EBE3BE /* Sources */,
+				C7B03F80191B9B1200EBE3BE /* Frameworks */,
+				C7B03F81191B9B1200EBE3BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C7B03F8A191B9B1200EBE3BE /* PBXTargetDependency */,
+			);
+			name = ButtonIndicatorViewTests;
+			productName = ButtonIndicatorViewTests;
+			productReference = C7B03F83191B9B1200EBE3BE /* ButtonIndicatorViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C7B03F6B191B9B1200EBE3BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jinxing;
+			};
+			buildConfigurationList = C7B03F6E191B9B1200EBE3BE /* Build configuration list for PBXProject "ButtonIndicatorView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C7B03F6A191B9B1200EBE3BE;
+			productRefGroup = C7B03F74191B9B1200EBE3BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7B03F72191B9B1200EBE3BE /* ButtonIndicatorView */,
+				C7B03F82191B9B1200EBE3BE /* ButtonIndicatorViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C7B03F81191B9B1200EBE3BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B03F91191B9B1200EBE3BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C7B03F6F191B9B1200EBE3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B03F7E191B9B1200EBE3BE /* ButtonIndicatorView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7B03F7F191B9B1200EBE3BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B03F93191B9B1200EBE3BE /* ButtonIndicatorViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C7B03F8A191B9B1200EBE3BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C7B03F72191B9B1200EBE3BE /* ButtonIndicatorView */;
+			targetProxy = C7B03F89191B9B1200EBE3BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C7B03F8F191B9B1200EBE3BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C7B03F90191B9B1200EBE3BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C7B03F94191B9B1200EBE3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C7B03F95191B9B1200EBE3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C7B03F97191B9B1200EBE3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ButtonIndicatorView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonIndicatorView/ButtonIndicatorView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C7B03F98191B9B1200EBE3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ButtonIndicatorView.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonIndicatorView/ButtonIndicatorView-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C7B03F9A191B9B1200EBE3BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonIndicatorView/ButtonIndicatorView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ButtonIndicatorViewTests/ButtonIndicatorViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		C7B03F9B191B9B1200EBE3BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ButtonIndicatorView/ButtonIndicatorView-Prefix.pch";
+				INFOPLIST_FILE = "ButtonIndicatorViewTests/ButtonIndicatorViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C7B03F6E191B9B1200EBE3BE /* Build configuration list for PBXProject "ButtonIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B03F94191B9B1200EBE3BE /* Debug */,
+				C7B03F95191B9B1200EBE3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7B03F96191B9B1200EBE3BE /* Build configuration list for PBXNativeTarget "ButtonIndicatorView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B03F97191B9B1200EBE3BE /* Debug */,
+				C7B03F98191B9B1200EBE3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C7B03F99191B9B1200EBE3BE /* Build configuration list for PBXNativeTarget "ButtonIndicatorViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B03F9A191B9B1200EBE3BE /* Debug */,
+				C7B03F9B191B9B1200EBE3BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C7B03F6B191B9B1200EBE3BE /* Project object */;
+}
